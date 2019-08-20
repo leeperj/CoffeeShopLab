@@ -6,27 +6,44 @@
 <h1>Register</h1>
 
 @model CoffeeShopLab.Models.User
-
+<div style="color: red">
+@Html.ValidationSummary()
+    </div>
 @using (var form = Html.BeginForm())
 {
 
-    <div>
-        @Html.LabelFor(m => m.FirstName)
-        @Html.TextBoxFor(m => m.FirstName)
-    </div>
-    <div>
-        @Html.LabelFor(m => m.LastName)
-        @Html.TextBoxFor(m => m.LastName)
+    <div class=RegisterForm>
+        <div class="userInput">
+            @Html.LabelFor(m => m.FirstName)
+            @Html.TextBoxFor(m => m.FirstName)
+        </div>
+        <div class="userInput">
+            @Html.LabelFor(m => m.LastName)
+            @Html.TextBoxFor(m => m.LastName)
+        </div>
+        <div class="userInput">
+            @Html.LabelFor(m => m.UserName)
+            @Html.TextBoxFor(m => m.UserName)
+        </div>
+        <div class="userInput">
+            @Html.LabelFor(m => m.UserEmail)
+            @Html.TextBoxFor(m => m.UserEmail)
+        </div>
+        <div class="userInput">
+            @Html.LabelFor(m => m.PhoneNumber)
+            @Html.TextBoxFor(m => m.PhoneNumber)
+        </div>
+        <div class="userInput">
+            @Html.LabelFor(m => m.Address)
+            @Html.TextBoxFor(m => m.Address)
+        </div>
+        <div class="userInput">
+            @Html.LabelFor(m => m.Password)
+            @Html.TextBoxFor(m => m.Password)
+        </div>
+
+        <input type="submit" value="Submit" />
+
     </div>
 
-    <div>
-        @Html.LabelFor(m => m.UserEmail)
-        @Html.TextBoxFor(m => m.UserEmail)
-    </div>
-    <div>
-        @Html.LabelFor(m => m.Password)
-        @Html.TextBoxFor(m => m.Password)
-    </div>
-
-    <input type="submit" value="Submit" />
 }

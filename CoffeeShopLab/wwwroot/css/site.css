@@ -17,6 +17,28 @@ html {
         font-size: 16px;
     }
 }
+h1 {
+    color: cyan;
+    text-shadow: 2px 2px #000000;
+}
+h2 {
+    color: cyan;
+    text-shadow: 2px 2px #000000;
+}
+.userInput {
+    color: cyan;
+    text-shadow: 2px 2px #000000;
+}
+.RegisterForm input {
+    color: cyan;
+    margin-left: 9em;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px #000000;
+}
+.RegisterForm label {
+    position: fixed;
+    text-shadow: 2px 2px #000000;
+}
 
 .border-top {
   border-top: 1px solid #e5e5e5;
@@ -43,8 +65,9 @@ html {
 
 body {
     /* Margin bottom by footer height */
+    background-image: url(https://btrpay.com/wp-content/uploads/2019/01/cup-of-coffee-P6ANRH2-1024x683.jpg);
+    background-size: cover;
     margin-bottom: 60px;
-    background-color: firebrick;
 }
 .footer {
   position: absolute;

@@ -29,7 +29,14 @@ namespace CoffeeShopLab.Controllers
 
         public IActionResult AddUser(User user)
         {
+            if (ModelState.IsValid)
+            {
             return View(user);
+            }
+            else
+            {
+                return View("UserForm", user);
+            }
         }
 
     }
