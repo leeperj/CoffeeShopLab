@@ -30,3 +30,5 @@ C:\Users\josep\source\repos\CoffeeShopLab\CoffeeShopLab\obj\Debug\netcoreapp2.2\
 C:\Users\josep\source\repos\CoffeeShopLab\CoffeeShopLab\obj\Debug\netcoreapp2.2\CoffeeShopLab.dll
 C:\Users\josep\source\repos\CoffeeShopLab\CoffeeShopLab\obj\Debug\netcoreapp2.2\CoffeeShopLab.pdb
 C:\Users\josep\source\repos\CoffeeShopLab\CoffeeShopLab\obj\Debug\netcoreapp2.2\CoffeeShopLab.csproj.CopyComplete
+C:\Users\josep\source\repos\CoffeeShopLab\CoffeeShopLab\obj\Debug\netcoreapp2.2\CoffeeShopLab.csprojAssemblyReference.cache
+C:\Users\josep\source\repos\CoffeeShopLab\CoffeeShopLab\obj\Debug\netcoreapp2.2\Razor\Views\Home\ListUsers.g.cshtml.cs

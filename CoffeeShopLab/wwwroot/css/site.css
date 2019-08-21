@@ -29,14 +29,12 @@ h2 {
     color: cyan;
     text-shadow: 2px 2px #000000;
 }
-.RegisterForm input {
-    color: cyan;
+.RegisterForm input {   
     margin-left: 9em;
     margin-bottom: 5px;
-    text-shadow: 2px 2px #000000;
 }
 .RegisterForm label {
-    position: fixed;
+    position: absolute;
     text-shadow: 2px 2px #000000;
 }
 

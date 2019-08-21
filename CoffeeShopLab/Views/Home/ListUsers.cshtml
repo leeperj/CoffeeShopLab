@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewData["Title"] = "ListUsers";
+}
+
+<h1>ListUsers</h1>
+
+
+@model IEnumerable<CoffeeShopLab.Models.User>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>User Name</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.FirstName @item.LastName</td>
+            <td>@item.UserEmail</td>
+            <td>@item.UserName</td>
+            <td>@Html.ActionLink("Add to Cart", "AddItemToCart", "Payment", item)</td>
+        </tr>
+    }
+</table>
